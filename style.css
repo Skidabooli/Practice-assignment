@@ -1,0 +1,327 @@
+body {
+    min-height: 98vh;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.indicator {
+    position: relative;
+    width: 20%;
+    min-width: 300px;
+    border: 3px solid #4c9d3a;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.head h4, p {
+    margin-top: 40%;
+    margin-left: 20px;
+}
+
+.search {
+    display: flex;
+    height: 25px;
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    -webkit-touch-callout: none; /* iOS Safari запрет выделения*/
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none
+}
+
+.input_search {
+    width: 150px;
+    font-size: large;
+    border: none;
+    outline-color:  #4c9d3a;
+}
+
+.img_search {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.tabs {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.tablinks {
+    height: 20px;
+    font-weight: 700;
+    color: #3b772d;
+    padding: 5px;
+}
+
+.tablinks:hover {
+    background-color: #c0f1b5;
+}
+
+.basement {
+    height: 150px;
+    width: 100%;
+    background-color: #4c9d3a;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+}
+
+.basement p {
+    color: black;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.block {
+    min-height: 98vh;
+    background-color: #fff;
+}
+
+span {
+    font-weight: 700;
+}
+
+.heading {
+    background-color: #4c9d3a;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+#main {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3a9c56;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #2e7d32; /* Зеленый */
+    margin-bottom: 15px;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #4c9a2a;
+}
+
+.activities {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity {
+    font-size: 1.1em;
+    color: #388e3c;
+    margin: 10px 0;
+}
+
+.features {
+    margin-top: 30px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #4c9a2a;
+}
+
+.features p {
+    margin-bottom: 20px;
+}
+
+.features strong {
+    color: #388e3c;
+}
+
+.licenses {
+    margin-top: 30px;
+}
+
+.license-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.license {
+    font-size: 1.1em;
+    color: #558b2f; /* Еще светлее зеленый */
+    margin: 10px 0;
+}
+
+.license strong {
+    color: #3a9c56;
+}
+
+#about_the_company {
+    display: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about_the_company h1 {
+    text-align: center;
+    color: #3a9c56;
+    margin-bottom: 20px;
+}
+
+#about_the_company h2 {
+    font-size: 1.5em;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #4c9a2a;
+}
+
+.activities {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity {
+    font-size: 1.1em;
+    color: #388e3c;
+    margin: 10px 0;
+}
+
+.licenses {
+    margin-top: 30px;
+}
+
+.license-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.license {
+    font-size: 1.1em;
+    color: #558b2f;
+    margin: 10px 0;
+}
+
+.license strong {
+    color: #3a9c56;
+}
+
+.sections {
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 1.3em;
+    color: #388e3c;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.section li, p{
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+#news {
+    display: none;
+}
+
+#Letov {
+    text-align: center;
+}
+
+#contacts {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#first_text {
+    margin-top: 5%;
+}
+
+#final_text {
+    margin-bottom: 8%;
+}
+
+#non-liquid_products {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    color: #3a9c56;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category {
+    margin: 15px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.subcategory {
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #388e3c;
+}
+
+.item {
+    margin-left: 40px;
+    font-size: 1em;
+    color: #558b2f;
+}
+
+.count {
+    color: #6d9e38;
+    font-weight: normal;
+}
